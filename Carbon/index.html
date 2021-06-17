@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Carbon Footprint</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <p id="intro">
+        Calculate your carbon footprint using the form below. Enter your details
+        and click the calculate button to display your result.
+      </p>
+
+      <form action="none" method="post" name="carbonprint">
+        <h1>CARBON FOOT PRINT</h1>
+        <label for="electricity">Electricity (KWh):</label>
+        <input type="text" name="electricity" id="electricity" />
+        <br />
+        <label for="Petrol">Petrol (Litres):</label>
+        <input type="text" name="Petrol" id="Petrol" />
+        <br />
+        <label for="Diesel">Diesel(Litres):</label>
+        <input type="text" name="Diesel" id="Diesel" />
+        <br />
+        <label for="LPG">LPG(kg):</label>
+        <input type="text" name="LPG" id="LPG" />
+        <br />
+        <label for="Account">Account Number</label>
+        <input type="text" name="Number" id="Number" />
+        <br />
+
+        <button
+          type="button"
+          name="Calculate"
+           value="Calculate "
+         onclick="calcCarbon()" 
+        >
+          Calculate your Carbon footprint
+        </button>
+
+        <h5>Carbon Print</h5>
+        <label for="footprint" id="footprint"
+          >Your calculated Carbon footprint is:</label
+        >
+        <input
+          type="text"
+          name="footprint"
+          id="footprint"
+          readonly="readonly"
+        />
+      </form>
+    </div>
+
+    <div class="image"><img src="img.jpeg" alt="" /></div> 
+  </body>
+</html>
