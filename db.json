@@ -1,0 +1,55 @@
+{
+  "users" :  [
+    {
+      "First_name" :"Muskan",
+      "Electricity"  :100,
+       "Petrol":10,
+       "Diesel":10,
+       "LPG":10,
+       "Account Numer":123,
+       "id":"1"
+
+
+    },
+    {
+      "First_name" :"Aman",
+      "Electricity"  :200,
+       "Petrol":20,
+       "Diesel":20,
+       "LPG":20,
+       "Account Numer":456,
+       "id":"2"
+    },
+    {
+      "First_name" :"Videeta ",
+      "Electricity"  :300,
+      "Petrol":30,
+      "Diesel":30,
+      "LPG":30,
+      "Account Numer":789,
+      "id":"3"
+
+    },
+    {
+      "First_name" :"Shruti",
+      "Electricity"  :400,
+      "Petrol":40,
+      "Diesel":40,
+      "LPG":40,
+      "Account Numer":987,
+      "id":"4"
+
+    },{
+      "First_name" :"Pranab",
+      "Electricity"  :500,
+       "Petrol":50,
+       "Diesel":50,
+       "LPG":50,
+       "Account Numer":654,
+       "id":"5"
+      }
+    
+
+  ]
+  
+}
